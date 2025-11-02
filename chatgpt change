@@ -1,0 +1,204 @@
+ ## מודלי שפה (Language Models)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| ChatGPT (GPT-4) | מודל שפה | ידע רחב, יכולת שיחה מצוינת, פלאגינים, ניתוח תמונות | יקר יחסית, מוגבל לנתונים עד אפריל 2023 (בגרסה רגילה) | $20/חודש (Plus), $200/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| ChatGPT (GPT-4o) | מודל שפה | מהיר יותר מ-GPT-4, זול יותר, ניתוח תמונות ושמע | פחות מתקדם מ-GPT-4 במשימות מורכבות | $20/חודש (Plus), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Claude 3.5 Sonnet | מודל שפה | חשיבה מעמיקה, הבנת הקשר מצוינת, חלון הקשר גדול (200K), כתיבה איכותית | גישה מוגבלת, לפעמים איטי יותר | $20/חודש (Pro), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Claude 3.7 Sonnet | מודל שפה | גרסה חדשה יותר, שיפורים בביצועים, חלון הקשר גדול | עדיין בשלבי גישה מוקדמת | $20/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Gemini Pro | מודל שפה | אינטגרציה עם Google, גישה למידע עדכני, ניתוח תמונות | פחות מתוחכם מהמתחרים בחלק מהמשימות | חינמי, Gemini Advanced $20/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
+-| Gemini 2.0 Flash | מודל שפה | מהיר במיוחד, יעיל, מולטימודלי | פחות עמוק מ-Pro במשימות מורכבות | Freemium | תמיכה מלאה | ⭐⭐⭐⭐ |
+-| Llama 3.1 (Meta) | מודל שפה קוד פתוח | קוד פתוח, אפשר להריץ לוקלית, בחינם | דורש משאבי חומרה, פחות ממשק ידידותי | חינמי (קוד פתוח) | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Perplexity AI | מודל שפה + חיפוש | חיפוש בזמן אמת, מקורות מצוטטים, עדכני | פחות טוב בשיחות יצירתיות | $20/חודש (Pro), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Microsoft Copilot | מודל שפה | אינטגרציה עם Office, גישה חינמית לGPT-4 | פחות גמיש מהמתחרים העצמאיים | חינמי, Copilot Pro $20/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
+-| Mistral AI | מודל שפה קוד פתוח | קוד פתוח, ביצועים טובים, אירופאי | קהילה קטנה יותר | Freemium, API זמין | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| DeepSeek V3 | מודל שפה | חזק במיוחד בתכנות ומתמטיקה, זול | פחות נגיש, תיעוד פחות טוב | API מחיר נמוך | תמיכה חלקית | ⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/openai.com" alt="ChatGPT logo" width="40"/><br/><a href="https://chat.openai.com/">ChatGPT (GPT-4)</a></div> | מודל שפה | ידע רחב, יכולת שיחה מצוינת, פלאגינים, ניתוח תמונות | יקר יחסית, מוגבל לנתונים עד אפריל 2023 (בגרסה רגילה) | $20/חודש (Plus), $200/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/openai.com" alt="ChatGPT logo" width="40"/><br/><a href="https://chat.openai.com/">ChatGPT (GPT-4o)</a></div> | מודל שפה | מהיר יותר מ-GPT-4, זול יותר, ניתוח תמונות ושמע | פחות מתקדם מ-GPT-4 במשימות מורכבות | $20/חודש (Plus), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/claude.ai" alt="Claude logo" width="40"/><br/><a href="https://claude.ai/">Claude 3.5 Sonnet</a></div> | מודל שפה | חשיבה מעמיקה, הבנת הקשר מצוינת, חלון הקשר גדול (200K), כתיבה איכותית | גישה מוגבלת, לפעמים איטי יותר | $20/חודש (Pro), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/claude.ai" alt="Claude logo" width="40"/><br/><a href="https://claude.ai/">Claude 3.7 Sonnet</a></div> | מודל שפה | גרסה חדשה יותר, שיפורים בביצועים, חלון הקשר גדול | עדיין בשלבי גישה מוקדמת | $20/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/google.com" alt="Gemini logo" width="40"/><br/><a href="https://gemini.google.com/">Gemini Pro</a></div> | מודל שפה | אינטגרציה עם Google, גישה למידע עדכני, ניתוח תמונות | פחות מתוחכם מהמתחרים בחלק מהמשימות | חינמי, Gemini Advanced $20/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/google.com" alt="Gemini logo" width="40"/><br/><a href="https://ai.google.dev/gemini-api">Gemini 2.0 Flash</a></div> | מודל שפה | מהיר במיוחד, יעיל, מולטימודלי | פחות עמוק מ-Pro במשימות מורכבות | Freemium | תמיכה מלאה | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/meta.com" alt="Llama logo" width="40"/><br/><a href="https://ai.meta.com/llama/">Llama 3.1 (Meta)</a></div> | מודל שפה קוד פתוח | קוד פתוח, אפשר להריץ לוקלית, בחינם | דורש משאבי חומרה, פחות ממשק ידידותי | חינמי (קוד פתוח) | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/perplexity.ai" alt="Perplexity AI logo" width="40"/><br/><a href="https://www.perplexity.ai/">Perplexity AI</a></div> | מודל שפה + חיפוש | חיפוש בזמן אמת, מקורות מצוטטים, עדכני | פחות טוב בשיחות יצירתיות | $20/חודש (Pro), Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft Copilot logo" width="40"/><br/><a href="https://copilot.microsoft.com/">Microsoft Copilot</a></div> | מודל שפה | אינטגרציה עם Office, גישה חינמית לGPT-4 | פחות גמיש מהמתחרים העצמאיים | חינמי, Copilot Pro $20/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/mistral.ai" alt="Mistral AI logo" width="40"/><br/><a href="https://mistral.ai/">Mistral AI</a></div> | מודל שפה קוד פתוח | קוד פתוח, ביצועים טובים, אירופאי | קהילה קטנה יותר | Freemium, API זמין | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/deepseek.com" alt="DeepSeek logo" width="40"/><br/><a href="https://www.deepseek.com/">DeepSeek V3</a></div> | מודל שפה | חזק במיוחד בתכנות ומתמטיקה, זול | פחות נגיש, תיעוד פחות טוב | API מחיר נמוך | תמיכה חלקית | ⭐⭐⭐⭐ |
+ 
+ ## מחוללי תמונות (Image Generators)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Midjourney | יצירת תמונות | איכות גבוהה מאוד, סגנון אמנותי, קהילה פעילה | ממשק Discord, לא חינמי | $10-$120/חודש (לפי תוכנית) | תמיכה חלקית (פרומפטים באנגלית עדיפים) | ⭐⭐⭐⭐⭐ |
+-| DALL·E 3 | יצירת תמונות | הבנת טקסט מצוינת, אינטגרציה עם ChatGPT, בטוח | פחות גמיש בעריכה, הגבלות תוכן | כלול ב-ChatGPT Plus ($20/חודש) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Stable Diffusion | יצירת תמונות | קוד פתוח, שליטה מלאה, הרצה לוקלית | דורש ידע טכני, משאבי חומרה | חינמי (קוד פתוח) | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Adobe Firefly | יצירת תמונות | אינטגרציה עם Adobe, מסחרי לגיטימי, קל לשימוש | פחות יצירתי מהמתחרים | Freemium, כלול במנוי Creative Cloud | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Leonardo.ai | יצירת תמונות | מודלים מגוונים, עריכת תמונות, טוב לגיימינג | ממשק מורכב לפעמים | Freemium, $12-$48/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Ideogram | יצירת תמונות | מצוין ליצירת טקסט בתמונות, טיפוגרפיה | פחות גמיש בסגנונות אמנותיים | Freemium, $8-$48/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Flux.1 | יצירת תמונות | קוד פתוח, איכות גבוהה, מהיר | חדש יחסית, פחות תמיכה | חינמי/Freemium | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Imagen 3 (Google) | יצירת תמונות | איכות גבוהה, הבנת טקסט טובה | גישה מוגבלת | בשלבי גישה מוקדמת | תמיכה מלאה | ⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/midjourney.com" alt="Midjourney logo" width="40"/><br/><a href="https://www.midjourney.com/">Midjourney</a></div> | יצירת תמונות | איכות גבוהה מאוד, סגנון אמנותי, קהילה פעילה | ממשק Discord, לא חינמי | $10-$120/חודש (לפי תוכנית) | תמיכה חלקית (פרומפטים באנגלית עדיפים) | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/openai.com" alt="DALL·E logo" width="40"/><br/><a href="https://openai.com/dall-e-3">DALL·E 3</a></div> | יצירת תמונות | הבנת טקסט מצוינת, אינטגרציה עם ChatGPT, בטוח | פחות גמיש בעריכה, הגבלות תוכן | כלול ב-ChatGPT Plus ($20/חודש) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/stability.ai" alt="Stable Diffusion logo" width="40"/><br/><a href="https://stability.ai/stable-diffusion">Stable Diffusion</a></div> | יצירת תמונות | קוד פתוח, שליטה מלאה, הרצה לוקלית | דורש ידע טכני, משאבי חומרה | חינמי (קוד פתוח) | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/adobe.com" alt="Adobe Firefly logo" width="40"/><br/><a href="https://www.adobe.com/sensei/generative-ai/firefly.html">Adobe Firefly</a></div> | יצירת תמונות | אינטגרציה עם Adobe, מסחרי לגיטימי, קל לשימוש | פחות יצירתי מהמתחרים | Freemium, כלול במנוי Creative Cloud | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/leonardo.ai" alt="Leonardo AI logo" width="40"/><br/><a href="https://leonardo.ai/">Leonardo.ai</a></div> | יצירת תמונות | מודלים מגוונים, עריכת תמונות, טוב לגיימינג | ממשק מורכב לפעמים | Freemium, $12-$48/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/ideogram.ai" alt="Ideogram logo" width="40"/><br/><a href="https://ideogram.ai/">Ideogram</a></div> | יצירת תמונות | מצוין ליצירת טקסט בתמונות, טיפוגרפיה | פחות גמיש בסגנונות אמנותיים | Freemium, $8-$48/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/blackforestlabs.ai" alt="Flux logo" width="40"/><br/><a href="https://www.blackforestlabs.ai/flux">Flux.1</a></div> | יצירת תמונות | קוד פתוח, איכות גבוהה, מהיר | חדש יחסית, פחות תמיכה | חינמי/Freemium | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/google.com" alt="Imagen logo" width="40"/><br/><a href="https://ai.google/generative-ai/imagen/">Imagen 3 (Google)</a></div> | יצירת תמונות | איכות גבוהה, הבנת טקסט טובה | גישה מוגבלת | בשלבי גישה מוקדמת | תמיכה מלאה | ⭐⭐⭐⭐ |
+ 
+ ## כלי קול (Voice/Audio AI)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| ElevenLabs | סינטזת קול | איכות קול מציאותית ביותר, קלונינג קול, רגשות | יקר, הגבלות שימוש | $5-$330/חודש, Free tier מוגבל | תמיכה מלאה (דיבוב עברית מצוין) | ⭐⭐⭐⭐⭐ |
+-| Play.ht | סינטזת קול | קולות מגוונים, מחירים סבירים | פחות מציאותי מ-ElevenLabs | $31-$99/חודש, Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐ |
+-| Murf.ai | סינטזת קול | ממשק פשוט, טוב לפרזנטציות | פחות גמיש | $29-$99/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Descript | עריכת שמע/וידאו + AI | עריכה טקסטואלית של שמע, Overdub | מורכב ללמידה | $12-$24/חודש | לא תומך | ⭐⭐⭐⭐ |
+-| Speechify | הקראת טקסט | הקראה טבעית, ממשק נוח | מוגבל בהתאמה אישית | $11.58/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
+-| Whisper (OpenAI) | תמלול דיבור לטקסט | דיוק גבוה, קוד פתוח, תמיכה ב-99 שפות | דורש משאבים להרצה מקומית | חינמי (קוד פתוח), API זול | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/elevenlabs.io" alt="ElevenLabs logo" width="40"/><br/><a href="https://elevenlabs.io/">ElevenLabs</a></div> | סינטזת קול | איכות קול מציאותית ביותר, קלונינג קול, רגשות | יקר, הגבלות שימוש | $5-$330/חודש, Free tier מוגבל | תמיכה מלאה (דיבוב עברית מצוין) | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/play.ht" alt="Play.ht logo" width="40"/><br/><a href="https://play.ht/">Play.ht</a></div> | סינטזת קול | קולות מגוונים, מחירים סבירים | פחות מציאותי מ-ElevenLabs | $31-$99/חודש, Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/murf.ai" alt="Murf AI logo" width="40"/><br/><a href="https://murf.ai/">Murf.ai</a></div> | סינטזת קול | ממשק פשוט, טוב לפרזנטציות | פחות גמיש | $29-$99/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/descript.com" alt="Descript logo" width="40"/><br/><a href="https://www.descript.com/">Descript</a></div> | עריכת שמע/וידאו + AI | עריכה טקסטואלית של שמע, Overdub | מורכב ללמידה | $12-$24/חודש | לא תומך | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/speechify.com" alt="Speechify logo" width="40"/><br/><a href="https://speechify.com/">Speechify</a></div> | הקראת טקסט | הקראה טבעית, ממשק נוח | מוגבל בהתאמה אישית | $11.58/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/openai.com" alt="Whisper logo" width="40"/><br/><a href="https://openai.com/research/whisper">Whisper (OpenAI)</a></div> | תמלול דיבור לטקסט | דיוק גבוה, קוד פתוח, תמיכה ב-99 שפות | דורש משאבים להרצה מקומית | חינמי (קוד פתוח), API זול | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+ 
+ ## כלי וידאו (Video AI)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Runway Gen-3 | יצירת וידאו | איכות גבוהה, כלי עריכה מתקדמים | יקר, זמן עיבוד ארוך | $12-$76/חודש + קרדיטים | לא תומך (פרומפטים באנגלית) | ⭐⭐⭐⭐⭐ |
+-| Pika Labs | יצירת וידאו | קל לשימוש, תוצאות מהירות | פחות שליטה עדינה | Freemium, $8-$58/חודש | לא תומך | ⭐⭐⭐⭐ |
+-| Synthesia | וידאו עם אווטרים | יצירת דוברים AI, מקצועי | נראה מלאכותי, יקר | $22-$67/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| HeyGen | וידאו עם אווטרים | תרגום שפתיים, קל לשימוש | הגבלות בחינמי | Freemium, $24-$120/חודש | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Kapwing | עריכת וידאו + AI | ממשק פשוט, כלי עריכה רבים | פחות מתקדם בAI טהור | Freemium, $16-$70/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Descript | עריכת וידאו + תמלול | עריכה טקסטואלית, תמלול אוטומטי | עקום למידה תלול | $12-$24/חודש | לא תומך | ⭐⭐⭐⭐ |
+-| Sora (OpenAI) | יצירת וידאו | איכות גבוהה ביותר, סימולציה פיזיקלית | עדיין לא זמין לרוב הציבור | לא ידוע (בפיתוח) | לא ידוע | ⭐⭐⭐⭐⭐ |
+-| Pictory | וידאו משיווקי | יצירה אוטומטית מבלוגים, פשוט | תבניתי | $19-$99/חודש | לא תומך | ⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/runwayml.com" alt="Runway logo" width="40"/><br/><a href="https://runwayml.com/">Runway Gen-3</a></div> | יצירת וידאו | איכות גבוהה, כלי עריכה מתקדמים | יקר, זמן עיבוד ארוך | $12-$76/חודש + קרדיטים | לא תומך (פרומפטים באנגלית) | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/pika.art" alt="Pika Labs logo" width="40"/><br/><a href="https://pika.art/">Pika Labs</a></div> | יצירת וידאו | קל לשימוש, תוצאות מהירות | פחות שליטה עדינה | Freemium, $8-$58/חודש | לא תומך | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/synthesia.io" alt="Synthesia logo" width="40"/><br/><a href="https://www.synthesia.io/">Synthesia</a></div> | וידאו עם אווטרים | יצירת דוברים AI, מקצועי | נראה מלאכותי, יקר | $22-$67/חודש | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/heygen.com" alt="HeyGen logo" width="40"/><br/><a href="https://www.heygen.com/">HeyGen</a></div> | וידאו עם אווטרים | תרגום שפתיים, קל לשימוש | הגבלות בחינמי | Freemium, $24-$120/חודש | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/kapwing.com" alt="Kapwing logo" width="40"/><br/><a href="https://www.kapwing.com/">Kapwing</a></div> | עריכת וידאו + AI | ממשק פשוט, כלי עריכה רבים | פחות מתקדם בAI טהור | Freemium, $16-$70/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/descript.com" alt="Descript logo" width="40"/><br/><a href="https://www.descript.com/">Descript</a></div> | עריכת וידאו + תמלול | עריכה טקסטואלית, תמלול אוטומטי | עקום למידה תלול | $12-$24/חודש | לא תומך | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/openai.com" alt="Sora logo" width="40"/><br/><a href="https://openai.com/sora">Sora (OpenAI)</a></div> | יצירת וידאו | איכות גבוהה ביותר, סימולציה פיזיקלית | עדיין לא זמין לרוב הציבור | לא ידוע (בפיתוח) | לא ידוע | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/pictory.ai" alt="Pictory logo" width="40"/><br/><a href="https://pictory.ai/">Pictory</a></div> | וידאו משיווקי | יצירה אוטומטית מבלוגים, פשוט | תבניתי | $19-$99/חודש | לא תומך | ⭐⭐⭐ |
+ 
+ ## כלים משלימים - עיצוב ויצירתיות (Design & Creative)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Canva AI | עיצוב גרפי + AI | ממשק פשוט, תבניות רבות, Magic Design | פחות מקצועי מAdobe | Freemium, $15/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Adobe Creative Cloud AI | עיצוב מקצועי | כלים מקצועיים, Firefly משולב | יקר, עקום למידה | $59.99/חודש | חלקי | ⭐⭐⭐⭐⭐ |
+-| Figma AI | עיצוב UI/UX | שיתוף פעולה, פלאגינים AI | פחות כלי AI מובנים | Freemium, $12-$45/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Remove.bg | הסרת רקע | מהיר, דיוק גבוה, חינמי לשימוש בסיסי | מוגבל לתמונות | Freemium, קרדיטים | לא נדרש | ⭐⭐⭐⭐⭐ |
+-| Topaz Labs | שיפור תמונות | Upscaling מצוין, Denoise | יקר, דורש חומרה חזקה | $199 חד-פעמי | לא נדרש | ⭐⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/canva.com" alt="Canva logo" width="40"/><br/><a href="https://www.canva.com/ai/">Canva AI</a></div> | עיצוב גרפי + AI | ממשק פשוט, תבניות רבות, Magic Design | פחות מקצועי מAdobe | Freemium, $15/חודש (Pro) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/adobe.com" alt="Adobe Creative Cloud logo" width="40"/><br/><a href="https://www.adobe.com/creativecloud.html">Adobe Creative Cloud AI</a></div> | עיצוב מקצועי | כלים מקצועיים, Firefly משולב | יקר, עקום למידה | $59.99/חודש | חלקי | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/figma.com" alt="Figma logo" width="40"/><br/><a href="https://www.figma.com/ai/">Figma AI</a></div> | עיצוב UI/UX | שיתוף פעולה, פלאגינים AI | פחות כלי AI מובנים | Freemium, $12-$45/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/remove.bg" alt="Remove.bg logo" width="40"/><br/><a href="https://www.remove.bg/">Remove.bg</a></div> | הסרת רקע | מהיר, דיוק גבוה, חינמי לשימוש בסיסי | מוגבל לתמונות | Freemium, קרדיטים | לא נדרש | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/topazlabs.com" alt="Topaz Labs logo" width="40"/><br/><a href="https://www.topazlabs.com/">Topaz Labs</a></div> | שיפור תמונות | Upscaling מצוין, Denoise | יקר, דורש חומרה חזקה | $199 חד-פעמי | לא נדרש | ⭐⭐⭐⭐⭐ |
+ 
+ ## כלי מחקר וידע (Research & Knowledge)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Perplexity Pro | חיפוש AI | מקורות מצוטטים, עדכני, אמין | לפעמים שגיאות בציטוט | $20/חודש, Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Consensus | מחקר אקדמי | חיפוש במאמרים מדעיים, סיכומים | מוגבל לאקדמיה | Freemium, $8.99-$16.99/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Elicit | מחקר אקדמי | ניתוח ספרות, שאלות מחקר | מוגבל לאקדמיה | Freemium, $10-$42/חודש | חלקי | ⭐⭐⭐⭐ |
+-| NotebookLM (Google) | ניתוח מסמכים | יצירת פודקאסט, סיכומים, עבודה עם PDF | עדיין בבטא | חינמי | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| ChatPDF | ניתוח PDF | שיחה עם PDFים, פשוט | מוגבל לPDF | Freemium, $5-$10/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/perplexity.ai" alt="Perplexity Pro logo" width="40"/><br/><a href="https://www.perplexity.ai/pro">Perplexity Pro</a></div> | חיפוש AI | מקורות מצוטטים, עדכני, אמין | לפעמים שגיאות בציטוט | $20/חודש, Free tier זמין | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/consensus.app" alt="Consensus logo" width="40"/><br/><a href="https://consensus.app/">Consensus</a></div> | מחקר אקדמי | חיפוש במאמרים מדעיים, סיכומים | מוגבל לאקדמיה | Freemium, $8.99-$16.99/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/elicit.org" alt="Elicit logo" width="40"/><br/><a href="https://elicit.org/">Elicit</a></div> | מחקר אקדמי | ניתוח ספרות, שאלות מחקר | מוגבל לאקדמיה | Freemium, $10-$42/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/google.com" alt="NotebookLM logo" width="40"/><br/><a href="https://notebooklm.google/">NotebookLM (Google)</a></div> | ניתוח מסמכים | יצירת פודקאסט, סיכומים, עבודה עם PDF | עדיין בבטא | חינמי | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/chatpdf.com" alt="ChatPDF logo" width="40"/><br/><a href="https://www.chatpdf.com/">ChatPDF</a></div> | ניתוח PDF | שיחה עם PDFים, פשוט | מוגבל לPDF | Freemium, $5-$10/חודש | תמיכה מלאה | ⭐⭐⭐⭐ |
+ 
+ ## כלי תכנות ופיתוח (Coding & Development)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| GitHub Copilot | השלמת קוד | אינטגרציה מצוינת, מהיר | לפעמים קוד לא מיטבי | $10/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐⭐ |
+-| Cursor | עורך קוד AI | עוצמתי, הקשר מלא | יקר יחסית | $20/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐⭐ |
+-| Claude Code | כלי CLI לתכנות | אינטראקטיבי, כלי CLI חזק, גישה לכלים | מוגבל לתשלום | כלול ב-Claude Pro ($20/חודש) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
+-| Replit AI | IDE + AI | הרצה בענן, שיתוף קל | ביצועים מוגבלים | Freemium, $7-$25/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Tabnine | השלמת קוד | פרטיות, הרצה לוקלית | פחות חכם מCopilot | Freemium, $12/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐ |
+-| Codeium | השלמת קוד | חינמי, תמיכה בשפות רבות | פחות מתקדם | חינמי | לא נדרש (קוד) | ⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/github.com" alt="GitHub Copilot logo" width="40"/><br/><a href="https://github.com/features/copilot">GitHub Copilot</a></div> | השלמת קוד | אינטגרציה מצוינת, מהיר | לפעמים קוד לא מיטבי | $10/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/cursor.com" alt="Cursor logo" width="40"/><br/><a href="https://www.cursor.com/">Cursor</a></div> | עורך קוד AI | עוצמתי, הקשר מלא | יקר יחסית | $20/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/claude.ai" alt="Claude Code logo" width="40"/><br/><a href="https://claude.ai/code">Claude Code</a></div> | כלי CLI לתכנות | אינטראקטיבי, כלי CLI חזק, גישה לכלים | מוגבל לתשלום | כלול ב-Claude Pro ($20/חודש) | תמיכה מלאה | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/replit.com" alt="Replit AI logo" width="40"/><br/><a href="https://replit.com/ai">Replit AI</a></div> | IDE + AI | הרצה בענן, שיתוף קל | ביצועים מוגבלים | Freemium, $7-$25/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/tabnine.com" alt="Tabnine logo" width="40"/><br/><a href="https://www.tabnine.com/">Tabnine</a></div> | השלמת קוד | פרטיות, הרצה לוקלית | פחות חכם מCopilot | Freemium, $12/חודש | לא נדרש (קוד) | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/codeium.com" alt="Codeium logo" width="40"/><br/><a href="https://www.codeium.com/">Codeium</a></div> | השלמת קוד | חינמי, תמיכה בשפות רבות | פחות מתקדם | חינמי | לא נדרש (קוד) | ⭐⭐⭐⭐ |
+ 
+ ## אוטומציה וזרימות עבודה (Automation & Workflows)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Zapier AI | אוטומציה | חיבורים רבים, ללא קוד | יקר בהיקפים גדולים | Freemium, $19.99-$69/חודש | חלקי | ⭐⭐⭐⭐⭐ |
+-| Make (Integromat) | אוטומציה | גמיש, ויזואלי | עקום למידה | Freemium, $9-$29/חודש | חלקי | ⭐⭐⭐⭐ |
+-| n8n | אוטומציה | קוד פתוח, גמיש | דורש ידע טכני | חינמי (self-hosted), Cloud $20-$100/חודש | לא נדרש | ⭐⭐⭐⭐ |
+-| Bardeen | אוטומציה | אוטומציה לדפדפן, פשוט | מוגבל לדפדפן | Freemium, $10/חודש | חלקי | ⭐⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/zapier.com" alt="Zapier AI logo" width="40"/><br/><a href="https://zapier.com/ai">Zapier AI</a></div> | אוטומציה | חיבורים רבים, ללא קוד | יקר בהיקפים גדולים | Freemium, $19.99-$69/חודש | חלקי | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/make.com" alt="Make logo" width="40"/><br/><a href="https://www.make.com/">Make (Integromat)</a></div> | אוטומציה | גמיש, ויזואלי | עקום למידה | Freemium, $9-$29/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/n8n.io" alt="n8n logo" width="40"/><br/><a href="https://n8n.io/">n8n</a></div> | אוטומציה | קוד פתוח, גמיש | דורש ידע טכני | חינמי (self-hosted), Cloud $20-$100/חודש | לא נדרש | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/bardeen.ai" alt="Bardeen logo" width="40"/><br/><a href="https://www.bardeen.ai/">Bardeen</a></div> | אוטומציה | אוטומציה לדפדפן, פשוט | מוגבל לדפדפן | Freemium, $10/חודש | חלקי | ⭐⭐⭐⭐ |
+ 
+ ## כלי נוספים (Additional Tools)
+ 
+ | שם הכלי | סוג הכלי | יתרונות עיקריים | חסרונות עיקריים | עלות | תמיכה בעברית | דירוג |
+-|---------|----------|------------------|------------------|------|--------------|-------|
+-| Grammarly | כתיבה ותיקון | בדיקה מתקדמת, הצעות שיפור | מוגבל לאנגלית | Freemium, $12-$15/חודש | לא תומך | ⭐⭐⭐⭐⭐ |
+-| Notion AI | ניהול ידע + AI | אינטגרציה עם Notion, סיכומים | מוגבל לסביבת Notion | $10/חודש + Notion | תמיכה חלקית | ⭐⭐⭐⭐ |
+-| Jasper AI | כתיבת תוכן שיווקי | מותאם לשיווק, תבניות | יקר, יצירתיות מוגבלת | $49-$125/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Copy.ai | כתיבת תוכן | פשוט, מהיר | פחות מעמיק | Freemium, $49/חודש | חלקי | ⭐⭐⭐ |
+-| Gamma | יצירת מצגות | יצירה אוטומטית של מצגות | עיצוב תבניתי | Freemium, $10-$20/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Beautiful.ai | יצירת מצגות | עיצוב אוטומטי חכם | פחות גמיש | $12/חודש | לא תומך | ⭐⭐⭐⭐ |
+-| Otter.ai | תמלול פגישות | תמלול בזמן אמת, סיכומים | מוגבל לאנגלית בעיקר | Freemium, $10-$20/חודש | לא תומך | ⭐⭐⭐⭐ |
+-| Fireflies.ai | תמלול פגישות | אינטגרציה עם Zoom/Teams, סיכומים | דיוק משתנה | Freemien, $10-$39/חודש | חלקי | ⭐⭐⭐⭐ |
+-| Krisp | ביטול רעשי רקע | ביטול רעש מצוין, פרטיות | מוגבל לאודיו | Freemium, $8/חודש | לא נדרש | ⭐⭐⭐⭐ |
+-| Lensa | עיבוד תמונות סלפי | Magic Avatars, פילטרים | בעיות פרטיות, איכות משתנה | $3.99-$7.99 לשימוש | לא נדרש | ⭐⭐⭐ |
++|---------:|----------:|------------------:|------------------:|------:|--------------:|-------:|
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/grammarly.com" alt="Grammarly logo" width="40"/><br/><a href="https://www.grammarly.com/">Grammarly</a></div> | כתיבה ותיקון | בדיקה מתקדמת, הצעות שיפור | מוגבל לאנגלית | Freemium, $12-$15/חודש | לא תומך | ⭐⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/notion.so" alt="Notion AI logo" width="40"/><br/><a href="https://www.notion.so/product/ai">Notion AI</a></div> | ניהול ידע + AI | אינטגרציה עם Notion, סיכומים | מוגבל לסביבת Notion | $10/חודש + Notion | תמיכה חלקית | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/jasper.ai" alt="Jasper AI logo" width="40"/><br/><a href="https://www.jasper.ai/">Jasper AI</a></div> | כתיבת תוכן שיווקי | מותאם לשיווק, תבניות | יקר, יצירתיות מוגבלת | $49-$125/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/copy.ai" alt="Copy.ai logo" width="40"/><br/><a href="https://www.copy.ai/">Copy.ai</a></div> | כתיבת תוכן | פשוט, מהיר | פחות מעמיק | Freemium, $49/חודש | חלקי | ⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/gamma.app" alt="Gamma logo" width="40"/><br/><a href="https://gamma.app/">Gamma</a></div> | יצירת מצגות | יצירה אוטומטית של מצגות | עיצוב תבניתי | Freemium, $10-$20/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/beautiful.ai" alt="Beautiful.ai logo" width="40"/><br/><a href="https://www.beautiful.ai/">Beautiful.ai</a></div> | יצירת מצגות | עיצוב אוטומטי חכם | פחות גמיש | $12/חודש | לא תומך | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/otter.ai" alt="Otter.ai logo" width="40"/><br/><a href="https://otter.ai/">Otter.ai</a></div> | תמלול פגישות | תמלול בזמן אמת, סיכומים | מוגבל לאנגלית בעיקר | Freemium, $10-$20/חודש | לא תומך | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/fireflies.ai" alt="Fireflies.ai logo" width="40"/><br/><a href="https://fireflies.ai/">Fireflies.ai</a></div> | תמלול פגישות | אינטגרציה עם Zoom/Teams, סיכומים | דיוק משתנה | Freemien, $10-$39/חודש | חלקי | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/krisp.ai" alt="Krisp logo" width="40"/><br/><a href="https://krisp.ai/">Krisp</a></div> | ביטול רעשי רקע | ביטול רעש מצוין, פרטיות | מוגבל לאודיו | Freemium, $8/חודש | לא נדרש | ⭐⭐⭐⭐ |
++| <div dir="rtl" align="right"><img src="https://logo.clearbit.com/prisma-ai.com" alt="Lensa logo" width="40"/><br/><a href="https://prisma-ai.com/lensa">Lensa</a></div> | עיבוד תמונות סלפי | Magic Avatars, פילטרים | בעיות פרטיות, איכות משתנה | $3.99-$7.99 לשימוש | לא נדרש | ⭐⭐⭐ |
+ 
+ ---
+ 
+ ## הערות ותובנות:
+ 
+ ### 🏆 המובילים בכל קטגוריה:
+ - **מודלי שפה**: ChatGPT GPT-4o, Claude 3.5/3.7 Sonnet, Perplexity AI
+ - **יצירת תמונות**: Midjourney, DALL·E 3
+ - **קול**: ElevenLabs, Whisper
+ - **וידאו**: Runway Gen-3, HeyGen
+ - **עיצוב**: Canva AI, Adobe Creative Cloud
+ - **מחקר**: Perplexity Pro, NotebookLM
+ - **תכנות**: GitHub Copilot, Cursor, Claude Code
+ - **אוטומציה**: Zapier
+ 
+ ### 💡 טיפים לבחירה:
+ 1. **למתחילים**: Canva AI, ChatGPT, ElevenLabs, HeyGen
+ 2. **למקצוענים**: Adobe Suite, Midjourney, Runway, Claude
+ 3. **לתקציב מוגבל**: Llama, Stable Diffusion, Codeium, Perplexity Free
+ 4. **לעברית**: ElevenLabs (קול), ChatGPT/Claude (שפה), HeyGen (וידאו)
+ 
+ ### 📊 מגמות 2025:
+ - מודלים מולטימודליים הופכים לסטנדרט
+ - ירידה במחירים וזמינות רחבה יותר
+ - שיפור בתמיכה בשפות (כולל עברית)
